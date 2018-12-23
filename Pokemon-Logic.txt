@@ -1,0 +1,66 @@
+LOGIC:
+Whole Pokemon Dataset is assigned to the variable name = "pokemonList"
+
+1) Displaying Information of the Pokemon by taking the pokemon's name as the argument:
+
+	a) Created a function naming "PokemonData" and provided parameters "name" and "pokemonList".
+
+	b) Created a variable "pokemonName" and assigned to false. If the "pokemonName" is true, then the data related
+	   to the pokemon will be displayed. As of now, its empty.
+
+	c) Created a variable "name" so that whatever the pokemon name is given, it will consider as an argument which
+	   will be taken from window.prompt.
+
+	d) Providing a "for" condition where it iterates the data related to pokemon in the pokemonList.
+
+	e) If condition holds the logic, which compares if the given argument "name" is present in the pokemon list.
+	   If TRUE, it provides the pokemon related data. i.e. name, image, type,height, weight, candy, candy_count,
+	   eggs, spawn chance, average spawns and spawns time.
+
+	f) Provided another if condition to provide a message when the given name is not found in pokemonList.
+
+-------------------------------------------------------------------------------------------------------------------------------
+2) Find pokemons that have the given name in the “next_evolution” field:
+
+	a) Created a function naming "nextEvolution" and provided parameters "evolutionName" and "pokemonList".
+
+	b) Created a variable "pokemonEvolutionName" and assigned to false. If the "pokemonEvolutionName" is true, then
+	   the pokemon having the given name in the "next_evolution" field will be displayed. As of now, its empty.
+
+	c) Created a variable "evolutionName" so that whatever the pokemon name is given, it will consider as an argument
+	   which will be taken from window.prompt.
+
+	d) Providing a "for" condition where it iterates the data related to pokemons in the pokemonList, in variable "x".
+
+	e) Providing another "for" condition where it iterates the data related to pokemon's next_evolution in pokemonList,
+	   in variable "y".
+
+	f) "If" condition holds the logic, which compares if the searched pokemon name is equal to the one present in the
+	   the "next_evolution" field in the pokemonList. If its TRUE, then it will provide the pokemon's names.
+
+	g) Provided another if condition to provide a message when the given name is not found in pokemonList.
+
+--------------------------------------------------------------------------------------------------------------------------------
+3) Find the pokemons that have the given weakness name:
+
+	a) Created a function naming "pokemonWeakness" and provided parameters "weakness" and "pokemonList".
+
+	b) Created a variable "similarPokemonWeakness" and assigned to false. If the "similarPokemonWeakness" is true, then
+	   the pokemon name having the given weakness in the "weaknesses" field will be displayed. As of now, its empty.
+
+	c) Created a variable "weakness" so that whatever the weakness is given, it will consider as an argument
+	   which will be taken from window.prompt.
+
+	d) Providing a "for" condition where it iterates the data related to pokemon in the pokemonList, in variable "x".
+
+	e) Providing another "for" condition where it iterates the data related to pokemon's weaknesses in pokemonList,
+	   in variable "y".
+
+	f) "If" condition holds the logic, which compares if the searched weakness is equal to the one present in the
+	   the "weaknesses" field in the pokemonList. If its TRUE, then it will provide the pokemon's names.
+
+	g) Provided another if condition to provide a message when the given weakness is not found in pokemonList.
+
+	   
+	
+

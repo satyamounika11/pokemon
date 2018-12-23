@@ -1,0 +1,202 @@
+{
+	"users": [{
+		"name": "Mounika",
+		"email": "xyz@gmail.com",
+		"mobile": 1234567890,
+		"address": "147 Street, beverly apartments, bangalore, 502080",
+		"payBalance": 420,
+		"primeUser": true,
+		"purchaseHistory": [{
+			"productCategory": "Mobile",
+			"productName": "Samsung Galaxy A7",
+			"orderID": "456 - 282 - 156734",
+			"merchantName": "Phones store Limited",
+			"Quantity": 1,
+			"payment": "Debit Card",
+			"Cost": 13786,
+			"orderPlaced": "25-04-2017",
+			"orderDelivered": "26-04-2017",
+			"PrimeCategory": true
+		}, {
+			"productCategory": "Book",
+			"productName": "The Kite Runner",
+			"orderID": "539 - 110 - 327540",
+			"merchantName": "Oxford Book Store",
+			"Quantity": 1,
+			"payment": "Cash",
+			"Cost": 550,
+			"orderPlaced": "6-11-2016",
+			"orderDelivered": "11-11-2016",
+			"PrimeCategory": false
+		}]
+	}],
+	
+	"categories": [
+		"Mobile",
+		"Electronics",
+		"Mens Fashion",
+		"Womens Fashion",
+		"Kids Fashion",
+		"Grocery",
+		"Car",
+		"Kitchen",
+		"Health",
+		"Books",
+		"Video Games",
+		"Gift Cards",
+		"Global Store"
+	],
+
+	"electronicSubCategories": [
+		"Televisions",
+		"Home Electronic Systems",
+		"Headphones",
+		"Speakers",
+		"Media Players",
+		"Cameras",
+		"DSLR Cameras",
+		"Camera Accessories",
+		"Air Conditioners",
+		"Refrigerators",
+		"Washing Machines",
+		"Heating & Cooling Appliances"
+	],
+
+	"televisionBrands": [
+		"Sony",
+		"Samsung",
+		"Panasonic",
+		"TCL",
+		"BPL",
+		"LG",
+		"Sanyo",
+		"Micromax"
+	],
+
+	"itemCondition": [
+		"new",
+		"certified refurbished",
+		"used"
+	],
+
+	"productDetails": [{
+		"productCategory": "Electronics",
+		"productSubCategory": "Televisions",
+		"productName": "TCL",
+		"modelName": "DL2900",
+		"itemWeight": "6.2 kg",
+		"resolution": "1080p",
+		"screenSize": "39 inches",
+		"screenType": "LED",
+		"color": "Black",
+		"powerConsumption": "70W",
+		"itemCondition": "new",
+		"warranty": "1.5 years",
+		"price": 37800,
+		"PrimeCategory": true,
+		"emiAvailable": true,
+		"exchangeAvailable": false,
+		"overallProductRating": "4.5",
+		"merchantName": " CloudTail Limited",
+		"customerReviews": [{
+			"user": "Tapas",
+			"rating": "5.0",
+			"Review": "Best sound quality"
+		}, {
+			"user": "Bhagya",
+			"rating": "4.5",
+			"Review": "Great value for money"
+		}, {
+			"user": "Pooja",
+			"rating": "4.8",
+			"Review": "Good Installation Service"
+		}]
+	}, {
+		"productCategory": "Electronics",
+		"productSubCategory": "Televisions",
+		"productName": "LG",
+		"modelName": "32LH576D",
+		"itemWeight": "7.7 kg",
+		"resolution": "720p",
+		"screenSize": "32 inches",
+		"screenType": "LED",
+		"color": "Golden",
+		"powerConsumption": "70W",
+		"itemCondition": "new",
+		"warranty": "1 year",
+		"price": 23785,
+		"PrimeCategory": false,
+		"emiAvailable": true,
+		"exchangeAvailable": true,
+		"overallProductRating": "3.8",
+		"merchantName": "AV Zone",
+		"customerReviews": [{
+			"user": "Azmi",
+			"rating": "3.5",
+			"Review": "Sound quality could have been better"
+		}, {
+			"user": "Keerthi",
+			"rating": "3.0",
+			"Review": "Pathetic Service"
+		}, {
+			"user": "Pranavi",
+			"rating": "2",
+			"Review": "Waste of Money"
+		}],
+		"exchangedProduct": true,
+		"exchangeProductDetails": [{
+			"productCategory": "Electronics",
+			"productSubCategory": "Televisions",
+			"productName": "ECTV",
+			"screenType": "LCD",
+			"itemWeight": "5.7 kg",
+			"screenSize": "30 inches",
+			"color": "Black",
+			"itemCondition": "used",
+			"exchangePrice": 3861
+		}]
+
+	}],
+
+	"merchants": [
+		"SREES- Samsung Authorised Chennai",
+		"CloudTail Limited",
+		"Phone Stores Limited",
+		"Bajaj Electronics",
+		"AV Zone",
+		"Devi Overseas Trading Co",
+		"Guruji Electronics Mart",
+		"Digital Worlds",
+		"All seasons Mart"
+	],
+
+	"merchantDetails": [{
+		"merchantName": "CloudTail Limited",
+		"merchantLicenceNo": 10015011003333,
+		"subject": "Contact Seller",
+		"joinedAmazonOn": "26-10-2008",
+		"address": " 26/1, 10th Floor, Brigade World Trade Center,Dr. Rajkumar Road,Bangalore - 560055",
+		"productsSoldByThem": [
+			"Electronics",
+			"Mobiles",
+			"Books",
+			"Video Games"
+		],
+		"PrimeCategory": true,
+		"overallRating": "4.5"
+	}, {
+		"merchantName": "Devi Overseas Trading Co",
+		"merchantLicenceNo": 12315021005633,
+		"subject": "Contact Seller",
+		"joinedAmazonOn": "06-11-2016",
+		"address": " 26/1, 10th Floor, Brigade World Trade Center,Dr. Rajkumar Road,Bangalore - 560055",
+		"productsSoldByThem": [
+			"Grocery",
+			"Kids Fashion",
+			"Mens Fashion",
+			"Womens Fasion"
+		],
+		"PrimeCategory": false,
+		"overallRating": "3.0"
+	}]
+}

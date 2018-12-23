@@ -1,0 +1,37 @@
+E-Commerce JSON dataset explanation (considering Amazon site as an example):
+
+This JSON dataset consists data of different fields. The fields included are:
+
+1) User Details: ("users")
+	This field consists of user's login credentials, address, whether they are prime user or not,
+	if they have any pay-balance left in their account and their purchase history.
+
+2) Categories: ("categories")
+	This field consists of an array of list of categories available in the e-commerce site. i.e. Mobile,
+	electronics, fashion, kitchen, grocercy etc.
+
+3) Sub-category of a specific category: ("electronicsSubCategory")
+	Here, I'm providing an example by choosing the category "Electronics". The "Electronics" consists of sub-category.
+	The electronics sub-category includes different kinds	electronics available in that category. i.e. television,
+	headphones, speakers, cameras, media players etc.
+
+4) Brands for that choosen product in sub-category: ("televisionBrands")
+	Here, I've choosen the "television" field. Hence, I've created an array which consists of different brands
+	available for TV. 
+	
+5) The item conditions: ("itemCondition")
+	This field consists of an array to provide the condition of the	product. i.e. whether its new, verified
+	refurbished and used.
+
+6) Specifications and details of that particular choosen product: ("productDetails")
+	In this field I'll try to provide dataset for a new product as well as for an exchanged product. The first
+	dataset provides the specifications of the TV, its price, ratings, customer reviews, emi availability. The
+	second dataset provides the similar specifications fields but includes the specifications of the exchange
+	product too.
+
+7) Different merchants available in the e-commerce site: ("merchants")
+	This field shows an array of different merchants available for this e-commerce site.
+	
+8) Merchant details: ("merchantDetails")
+	This field provides the details of the merchants available in the site. The details include their name, license 
+	number, when they have joined amazon, rating and what kindof products they sell.
